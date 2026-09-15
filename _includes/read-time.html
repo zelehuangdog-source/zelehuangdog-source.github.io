@@ -1,0 +1,45 @@
+{%- comment -%}
+  本地覆盖 Chirpy 主题的 _includes/read-time.html
+
+  为什么要覆盖：
+  1. 主题用 wpm = 180，这是英文阅读速度；
+  2. 而 Jekyll 的 number_of_words:'auto' 会把每个汉字算作一个"词"。
+  两者相乘，中文文章的阅读时长会被高估约 2 倍（如 1.8 万字显示 92 分钟）。
+
+  此处按中文技术类内容阅读速度 400 字/分钟计算，其余逻辑与主题保持一致。
+{%- endcomment -%}
+
+{% assign words = include.content | strip_html | number_of_words: 'auto' %}
+
+<!-- words per minute（中文：400 字/分钟） -->
+{% assign wpm = 400 %}
+{% assign min_time = 1 %}
+
+{% assign read_time = words | divided_by: wpm %}
+
+{% unless read_time > 0 %}
+  {% assign read_time = min_time %}
+{% endunless %}
+
+{% capture read_prompt %}
+  {{- site.data.locales[include.lang].post.read_time.prompt -}}
+{% endcapture %}
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="{{ words }} {{ site.data.locales[include.lang].post.words }}"
+>
+  <em>
+    {{- read_time -}}
+    {{ ' ' }}
+    {{- site.data.locales[include.lang].post.read_time.unit -}}
+  </em>
+  {%- if include.prompt -%}
+    {%- assign _prompt_words = read_prompt | number_of_words: 'auto' -%}
+    {%- unless _prompt_words > 1 -%}{{ ' ' }}{%- endunless -%}
+    {{ read_prompt }}
+  {%- endif -%}
+</span>

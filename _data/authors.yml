@@ -1,0 +1,10 @@
+# 文章署名表
+#
+# 用法：在文章 front matter 中写 author: <下面的 key>
+#   例：author: ai-lianjinshu
+#
+# 未指定 author 的文章，会回落到 _config.yml 里的 social.name（Zele Huang）。
+
+# 播客《AI 炼金术》—— 用于转载整理该播客内容的文章
+ai-lianjinshu:
+  name: 播客《AI 炼金术》
