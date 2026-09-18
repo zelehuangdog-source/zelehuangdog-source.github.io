@@ -13,7 +13,7 @@ tags: [翻译, Claude-Code, AI工程, 工程文化, 转载]
 
 ---
 
-> **How Anthropic Builds And How Engineering Will Change Soon | Thariq Shihipar** - [youtu.be/2Kch3tWMnw8](http://youtu.be/2Kch3tWMnw8)
+> **How Anthropic Builds And How Engineering Will Change Soon | Thariq Shihipar** - [youtu.be/2Kch3tWMnw8](https://youtu.be/2Kch3tWMnw8)
 
 Claude Code 开发者 Thariq Shihipar [@trq212](https://x.com/@trq212) 与 Ryan Peterman [@ryanlpeterman](https://x.com/@ryanlpeterman) 70 分钟深度对谈，围绕「Anthropic 内部如何用 AI 做工程」深入展开，来自一手前沿实践者的深度经验，大量内容是外部很少听到的内部细节。
 

@@ -3,7 +3,7 @@ title: "Claude Code 两大盲区及修复方案"
 date: 2026-05-07
 author: repost
 categories: [转载, Claude-Code实战]
-tags: [claude-code, skills, ai-agent, 翻译, 转载]
+tags: [Claude-Code, skills, AI-Agent, 翻译, 转载]
 ---
 
 > **转载声明**：本文**翻译整理**自：来源 https://x.com/akshay_pachaar。**内容版权归原作者及原出处所有**，本文仅供学习交流，**所有观点均属原作者，不代表本站立场**；如有侵权，请联系删除。

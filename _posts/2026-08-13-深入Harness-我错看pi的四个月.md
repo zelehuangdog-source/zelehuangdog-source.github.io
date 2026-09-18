@@ -3,7 +3,7 @@ title: "深入 Harness：我错看 pi 的四个月"
 date: 2026-08-13
 author: repost
 categories: [转载, Claude-Code实战]
-tags: [翻译, pi, Claude Code, AI代理, 开发者工具, 转载]
+tags: [翻译, pi, Claude-Code, AI代理, 开发者工具, 转载]
 ---
 
 > **摘要**：本文作者 Nick Nisi 分享了他对编码代理 pi 从"看不上"到"彻底拥抱"的四个月心路历程。起初他把 pi 当作更快的 Claude Code 使用，因自己围绕 Claude Code 构建的整套工具链无法迁移而放弃；直到他意识到 pi 的全部产品形态就是扩展（extension），可以在会话内部做任何事情。十天之内他写出了 26 个扩展、删除了 dotfiles 里 2.5 万行代码，并把 pi 用成了更强大的开发环境。文章核心洞察：当 harness 允许你进入内部时，构建在它之外的工具才真正变得可替代。对 Claude Code 用户理解"可扩展 harness"的设计哲学极具参考价值。

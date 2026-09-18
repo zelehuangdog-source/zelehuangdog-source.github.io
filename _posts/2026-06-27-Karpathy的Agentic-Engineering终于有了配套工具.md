@@ -3,7 +3,7 @@ title: "Karpathy 的 Agentic Engineering 终于有了配套工具"
 date: 2026-06-27
 author: repost
 categories: [转载, AI工程方法论]
-tags: [翻译, agentic-engineering, Google-ADK, RAG, 转载]
+tags: [翻译, Agentic-Engineering, Google-ADK, RAG, 转载]
 ---
 
 > **摘要**：Karpathy 在 Sequoia Ascent 2026 上将"Agentic Engineering"定义为区分生产级 Agent 开发与随意编码的专业工程学科，其核心技能包括 Spec 设计、Eval 循环和安全监督。然而一直以来缺乏统一的工具链支撑。Google 推出的 Agents CLI 填补了这一空白，通过向编码 Agent 注入 7 个技能（覆盖脚手架、评估、部署），让开发者仅凭自然语言提示就能完成从空文件夹到生产级 Agent 的全生命周期。本文以构建一个 RAG Agent 为例，演示了完整的六步流程。
