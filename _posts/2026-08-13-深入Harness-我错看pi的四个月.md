@@ -27,7 +27,7 @@ Zack 已经开始在 pi 上构建东西，刚刚听我说这不值得。问得�
 #### 我已经建好的城市
 
 我生活在终端里。tmux、Neovim、通过管道接进 `fzf` 的 `rg`、一条被我调试到没人能看懂的状态栏。
-到今年春天，我已经围绕 Claude Code 建起了一座完整的城市。[case](/posts/case-statement) 通过流水线分发代理，并用机械的方式强制约定。[Fleet](/posts/fleet) 监视着我 tmux 服务器里的每一个代理，把需要我处理的排到最上面。[sessions](https://github.com/nicknisi/sessions) 为机器上的每一次 Claude、Codex 和 pi 对话建立了索引，这样任何会话都能查询之前的任何一次。我的 plugins 仓库承载着 skills，而 tmux 状态栏承载着通知。
+到今年春天，我已经围绕 Claude Code 建起了一座完整的城市。case 通过流水线分发代理，并用机械的方式强制约定。Fleet 监视着我 tmux 服务器里的每一个代理，把需要我处理的排到最上面。[sessions](https://github.com/nicknisi/sessions) 为机器上的每一次 Claude、Codex 和 pi 对话建立了索引，这样任何会话都能查询之前的任何一次。我的 plugins 仓库承载着 skills，而 tmux 状态栏承载着通知。
 它们没有一个运行在 Claude Code 内部。它们全都运行在 Claude Code *旁边*——在 bash、Bun 和 `~/.cache` 下的文件里，从 harness 暴露出来的任何缝隙伸进去。
 
 #### 打动我的那个比喻
